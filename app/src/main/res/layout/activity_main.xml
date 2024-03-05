@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="20dp"
+        android:hint="İsminizi girin:"
+        android:id="@+id/kayitol_editIsim"
+        android:textAlignment="center"
+        android:textSize="27dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="75dp"
+        android:hint="Mail adresiniz:"
+        android:id="@+id/kayitol_mail"
+        android:textAlignment="center"
+        android:textSize="27dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/kayitol_sifre"
+        android:layout_marginTop="200dp"
+        android:textAlignment="center"
+        android:hint="Şifreniz:"
+        android:textSize="27dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kayıt ol"
+        android:textSize="30dp"
+        android:onClick="kayitOl"
+        android:layout_marginTop="300dp"/>
+
+
+</RelativeLayout>

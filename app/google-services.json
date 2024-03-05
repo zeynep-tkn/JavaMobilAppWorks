@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "490489601758",
+    "project_id": "fir-denemeforapp",
+    "storage_bucket": "fir-denemeforapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490489601758:android:083ba12209086438af2c4f",
+        "android_client_info": {
+          "package_name": "com.zeyneptekin.firebasedeneme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6ZTM85eDxN1opDBMmjxEzWfuDYKm9DYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
